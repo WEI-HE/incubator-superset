@@ -323,3 +323,5 @@ top-right of the dashboard to save the new configuration.
 Congrats! You’ve successfully linked, analyzed, and visualized data in Superset. 
 There are a wealth of other table configuration and visualization options, so 
 please start exploring and creating slices and dashboards of your own.
+
+^_^
