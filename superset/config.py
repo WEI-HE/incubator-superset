@@ -112,11 +112,11 @@ ENABLE_PROXY_FIX = False
 # GLOBALS FOR APP Builder
 # ------------------------------
 # Uncomment to setup Your App name
-APP_NAME = 'Superset'
+APP_NAME = '智能分析'
 
 # Uncomment to setup an App icon
-APP_ICON = '/static/assets/images/superset-logo@2x.png'
-APP_ICON_WIDTH = 126
+APP_ICON = '/static/assets/images/logo.svg'
+APP_ICON_WIDTH = 30
 
 # Uncomment to specify where clicking the logo would take the user
 # e.g. setting it to '/welcome' would take the user to '/superset/welcome'
@@ -175,21 +175,22 @@ PUBLIC_ROLE_LIKE_GAMMA = False
 # Babel config for translations
 # ---------------------------------------------------
 # Setup default language
-BABEL_DEFAULT_LOCALE = 'en'
+BABEL_DEFAULT_LOCALE = 'zh'
 # Your application default translation path
 BABEL_DEFAULT_FOLDER = 'superset/translations'
 # The allowed translation for you app
 LANGUAGES = {
-    'en': {'flag': 'us', 'name': 'English'},
-    'it': {'flag': 'it', 'name': 'Italian'},
-    'fr': {'flag': 'fr', 'name': 'French'},
-    'zh': {'flag': 'cn', 'name': 'Chinese'},
-    'ja': {'flag': 'jp', 'name': 'Japanese'},
-    'de': {'flag': 'de', 'name': 'German'},
-    'pt': {'flag': 'pt', 'name': 'Portuguese'},
-    'pt_BR': {'flag': 'br', 'name': 'Brazilian Portuguese'},
-    'ru': {'flag': 'ru', 'name': 'Russian'},
-    'ko': {'flag': 'kr', 'name': 'Korean'},
+   # 去掉语言项
+   # 'en': {'flag': 'us', 'name': 'English'},
+   # 'it': {'flag': 'it', 'name': 'Italian'},
+   # 'fr': {'flag': 'fr', 'name': 'French'},
+   # 'zh': {'flag': 'cn', 'name': 'Chinese'},
+   # 'ja': {'flag': 'jp', 'name': 'Japanese'},
+   # 'de': {'flag': 'de', 'name': 'German'},
+   # 'pt': {'flag': 'pt', 'name': 'Portuguese'},
+   # 'pt_BR': {'flag': 'br', 'name': 'Brazilian Portuguese'},
+   # 'ru': {'flag': 'ru', 'name': 'Russian'},
+   # 'ko': {'flag': 'kr', 'name': 'Korean'},
 }
 
 # ---------------------------------------------------
